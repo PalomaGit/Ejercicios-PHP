@@ -79,7 +79,7 @@ if (isset($_POST['posicion'])) {
         <button>Aceptar</button>
     </form>
     <br><br>
-    <p><a href="../index.html">>> Ir a la página principal</a></p>
+    <p><a href="../index.php">>> Ir a la página principal</a></p>
     </div>
 
 
