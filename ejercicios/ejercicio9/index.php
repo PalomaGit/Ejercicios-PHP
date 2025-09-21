@@ -41,7 +41,7 @@
                     <button type="submit" name="mult">Aceptar</button>
                     <br><br>
                     <p>
-                        <a href="../index.html">>> Ir a la página principal</a>
+                        <a href="../index.php">>> Ir a la página principal</a>
                     </p>
                 </div>
 

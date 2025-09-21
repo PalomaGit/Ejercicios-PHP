@@ -55,7 +55,7 @@ session_start();
     ?>
      </div>
     <div class="botones">
-        <p><a href="../index.html">>> Ir a la página principal</a></p>
+        <p><a href="../index.php">>> Ir a la página principal</a></p>
     </div>
 
 
