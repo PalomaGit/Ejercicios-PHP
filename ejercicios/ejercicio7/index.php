@@ -71,12 +71,13 @@
 
                 echo "<div class='resultado'> Faltan $segundosRestantes segundos para la medianoche.</div>";
 
+                echo "<div class='botones'>
+                    <a href='index.php'><button>Volver</button></a>
+                </div>";
             }
             ?>
 
-                <div class="botones">
-                    <a href="index.php"><button>Volver</button></a>
-                </div>
+                
         </div>
     </form>
 </body>
