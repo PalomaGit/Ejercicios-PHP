@@ -56,11 +56,12 @@
                     $resultado = $num * $i;
                     echo "<tr><td>$num x $i = $resultado</td></tr>";
                 }
-                echo "</tbody></table>";
-
-            } echo "<div class='botones'>
+                echo "</tbody></table><br>";
+                echo "<div class='botones'>
                 <a href='index.php'><button>Volver</button></a>
             </div>";
+
+            } 
             
 
             ?>
