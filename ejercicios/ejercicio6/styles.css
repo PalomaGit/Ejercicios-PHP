@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor {
+    padding: 20px;
+}
+
+table {
+    border: 1px solid #000000;
+    background-color: #9cc8fa;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-spacing: 0;
+}
+
+th {
+    background-color: #4a8edc;
+    padding: 12px;
+    color: white;
+    text-shadow: 0px 1px 2px #000000;
+    font-size: 16px;
+    border-bottom: 1px solid #000000; 
+    border-radius: 15px 15px 0 0;     
+}
+
+td {
+    text-shadow: 1px 0px 2px #000000;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid #00000055; 
+}
+
+tr:last-child td {
+    border-bottom: none; 
+}
+
+input {
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+.resultado {
+    margin: 20px auto;
+    padding: 15px 25px;
+    max-width: 400px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #9cc8fa, #4a8edc);
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    animation: aparecer 0.8s ease-out;
+}
+
+/* Animación pa que entre con flow */
+@keyframes aparecer {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

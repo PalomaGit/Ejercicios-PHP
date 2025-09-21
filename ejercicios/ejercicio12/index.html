@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pirámide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio XII de PHP – Relación I</h1>
+        <h2>Certificaciones de Profesionalidad</h2>
+    </header>
+
+    <div class="contenedor">
+        <form method="post" action="piramide.php">
+            <table>
+                <tr>
+                    <td>
+                        <b>Altura: </b>
+                    </td>
+                    <td>
+                        <input type="number" name="altura" min="1" required></td>
+                    <td>
+                        <b>Figura base: </b>
+                    </td>
+                    <td>
+                        <select type="text" name="figura" required>
+                            <option value="Bolita">Bolita</option>
+                            <option value="Piña">Piña</option>
+                            <option value="Ladrillo">Ladrillo</option>
+                            <option value="Pingüino">Pingüino</option>
+                            <option value="Sol">Sol</option>
+                        </td>
+                </tr>
+
+            </table>
+            <br><br><br><br>
+            <div class="botones">
+                <button type="submit">Aceptar</button>
+            </div>
+        </form>
+        <div class="botones"></div>
+        <br><br>
+        <p><a href="../index.html">>> Ir a la página principal</a></p>
+    </div>
+    </div>
+
+    <footer>
+        <h2>© Paloma Ocaña Piña</h2>
+    </footer>
+</body>
+
+</html>
