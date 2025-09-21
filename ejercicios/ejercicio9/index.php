@@ -58,15 +58,14 @@
                 }
                 echo "</tbody></table>";
 
-            }
+            } echo "<div class='botones'>
+                <a href='index.php'><button>Volver</button></a>
+            </div>";
+            
 
             ?>
 
-            <div class="botones">
-                <a href="index.php"><button>Volver</button></a>
-            </div>
-            <?php
-            ?>
+            
         </div>
     </form>
 </body>
